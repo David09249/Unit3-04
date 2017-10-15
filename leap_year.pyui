@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{139, 282}, {293, 159}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "6A93A761-C77E-43A7-A7D2-C5E597EE4D53",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "outcome_label",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{189, 150}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "D8107BC9-E32F-4535-AA16-9570C47815FC",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "year_textbox",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{246, 221}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Check",
+          "uuid" : "69DB75AA-C66F-47B5-B81B-64A1104D5D5C",
+          "class" : "Button",
+          "name" : "check_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{177, 71}, {224, 53}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "leapyear_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "43404F89-1633-4EAE-8899-95A70EEDCBB5",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter a year to check if a year is a leap year",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
